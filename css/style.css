@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+
+    background-color: rgb(98, 98, 117);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.taskContent{
+
+    width: 80vh;
+    height: 50vh;
+    border-radius: 10%;
+    text-align: center;
+
+    background-color: white;
+}
+
+.Task{
+    font-size: 50px;
+}
+
+#botao{
+    width: 15vh;
+    height: 8vh;
+    border-radius: 10%;
+    font-size: 20px;
+}
+
+.card{
+
+    padding: 1%;
+    border-radius: 10%;
+    position:fixed;
+    background-color: azure;
+}
+
+.card.ativo{
+
+    top: 0;
+    
+}
+
+.card input{
+    font-size: 20px;
+    height: 5vh;
+}
+
+#botoesseparar{
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+#botoesseparar button{
+    width: 7vh;
+    height: 3vh;
+}
+

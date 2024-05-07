@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do - List</title>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="Title">
+            <h1>
+                To-Do List
+            </h1>
+        </div>
+
+        <div class="taskContent">
+
+        </div>
+
+        <div class="sendTask">
+            <button onclick="Card.toggle()" id="botao">Criar nova task!</button> 
+        </div>
+
+    </div>
+
+    
+    <div class="card">
+        <div>
+            <input id="mauricio" type="text"/>
+            <div id="botoesseparar">
+                <button onclick="Form.aleatory()">Enviar</button>
+                <button onclick="Card.toggle()">Cancelar</button> 
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
